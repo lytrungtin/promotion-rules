@@ -53,9 +53,9 @@ gem install rspec
 ### Installing
 Install the required gems by running the following command in the project root directory:
 
-    ```bash
-    bundle install
-    ```
+```bash
+bundle install
+```
 
 ## Running the automated tests
 Run this command below to run the automated tests. 

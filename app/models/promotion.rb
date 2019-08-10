@@ -1,5 +1,5 @@
 class Promotion
-  attr_accessor :min_total_price, :discount_rate, :includes_discount_item
+  attr_accessor :min_total_price, :discount_rate
 
   def initialize(attributes = {})
     attributes.each do |name, value|
