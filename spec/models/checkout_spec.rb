@@ -4,6 +4,7 @@ require_relative '../../app/models/checkout.rb'
 
 describe Checkout do
   before do
+    / If you spend over £60, then you get 10% off of your purchase /
     @promotional_rules = Promotion.new(min_total_price: 61, discount_rate: 10)
     @co = Checkout.new(@promotional_rules)
   end
@@ -99,8 +100,6 @@ describe Checkout do
 
       @item_002 = Product.new(product_code: '002', name: 'Personalised cufflinks', price: 45.00)
       @item_003 = Product.new(product_code: '003', name: 'Kids T-shirt', price: 19.95)
-
-      / If you spend over £60, then you get 10% off of your purchase /
     end
 
     context 'If you buy 2 or more lavender hearts then the price drops to £8.50' do
