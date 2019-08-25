@@ -39,8 +39,8 @@ Total price expected: £73.76
 
 Get the code. Clone this git repository and check out the latest release:
 ```bash
-git clone https://github.com/trungtinhandsome/logivan_backend
-cd logivan_backend_test
+git clone https://github.com/trungtinhandsome/promotion_rules
+cd promotion_rules
 ```    
 
 ### Prerequisites
