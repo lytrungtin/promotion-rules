@@ -66,4 +66,4 @@ Run this command below to run the automated tests.
 
 ## Authors
 
-* **Tin Lee** - *Initial work* - [TinLee](https://github.com/trungtinhandsome)
+* **Tin Ly** - *Initial work* - [TinLy](https://github.com/trungtinhandsome)
